@@ -13,6 +13,7 @@ body{
     width: 100%;
     top: 0;
     position: fixed;
+    z-index: 2;
 }
 
 .logo{
@@ -161,5 +162,91 @@ transition: .3s ease-in-out;
     border-top: #4aaaa5 solid 4px;
     text-align: center;
     clear: both;
-     
+  }
+
+  .footerAbout {
+    height:50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    border-top: #4aaaa5 solid 4px;
+    text-align: center;
+    clear: both;
+    
+  }
+
+  .container4{
+    background-color: white;
+    box-sizing: border-box;
+    width: 650px;
+    margin-left: 16.7%;
+    margin-top: 8%;
+    border:solid 1px #ccc;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.contactForm{
+    width: auto;
+    padding: 5px;
+    background: white;
+}
+
+.contactForm input[type=email],
+textarea{
+    width:100%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.contactForm input[type=text],
+textarea{
+    width:100%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.contactForm a{
+    text-decoration: none;
+    background: #4aaaa5;
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+.container5{
+    background-color: white;
+    box-sizing: border-box;
+    width: 650px;
+    margin-bottom: 3%;
+    margin-left: 16.7%;
+    margin-top: 8%;
+    border:solid 1px #ccc;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.container5 img{
+    padding: 15Px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.footerport {
+    height:50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #666666;
+    border-top: #4aaaa5 solid 4px;
+    text-align: center;
+    clear: both;
   }
